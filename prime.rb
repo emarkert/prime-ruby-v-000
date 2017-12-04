@@ -1,5 +1,5 @@
 def prime?(num)
-  if num <= 1 
+  if num <= 1
     false
   elsif (2..num/2).any? {|i| num % i == 0}
     false
@@ -7,4 +7,3 @@ def prime?(num)
     true
   end
 end
-
